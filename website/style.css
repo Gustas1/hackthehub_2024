@@ -1,3 +1,104 @@
-body {
-    background-color: red;
+html, html *, html body {
+  margin: 0px;
+  padding: 0px;
 }
+html body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+#bg {
+  background-image: ur;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#container #header {
+  position: sticky;
+  width: 100vw;
+  padding: 10px;
+  background-color: #000000;
+}
+#container #header h1 {
+  color: white;
+  text-align: center;
+}
+#container #first-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(resources/fireBg.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+#container #first-div h1 {
+  font-size: 150px;
+}
+#container #first-div div {
+  border-color: white;
+  padding: 10px;
+  margin: 90px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+#container #first-div .div-1 {
+  padding-top: 50px;
+}
+#container #first-div .div-1 p {
+  font-size: 60px;
+}
+#container #first-div .div-2 {
+  align-self: center;
+  height: 100px;
+  margin-bottom: 160px;
+}
+#container #first-div .div-2 button {
+  transform: scale(1.5);
+  transition: 0.5s;
+  padding: 40px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid white;
+  border-radius: 40px;
+}
+#container #first-div .div-2 button:hover {
+  transform: scale(1.7);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#container #first-div .div-2 button h2 {
+  font-size: xx-large;
+}
+#container #second-div {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000000;
+  color: white;
+}
+#container #second-div div {
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+}
+#container #second-div div h1 {
+  font-size: 80px;
+}
+#container #second-div div p {
+  font-size: 25px;
+  padding-top: 7px;
+}
+#container #second-div div img {
+  margin-right: 15px;
+  height: 500px;
+  width: 500px;
+}/*# sourceMappingURL=style.css.map */
