@@ -95,10 +95,74 @@ html body {
 }
 #container #second-div div p {
   font-size: 25px;
+  margin-left: 5px;
   padding-top: 7px;
 }
 #container #second-div div img {
   margin-right: 15px;
   height: 500px;
   width: 500px;
+}
+
+.override {
+  background-image: url(resources/Shiny\ Overlay.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#login-div {
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  transform: scale(1.5);
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 350px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 30px;
+  color: white;
+}
+#login-div div h1 {
+  margin-bottom: 10px;
+}
+#login-div div div table td {
+  padding: 2px;
+}
+#login-div div div table td label, #login-div div div table td input {
+  font-size: medium;
+}
+#login-div div div table td input {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#login-div div div button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 200px;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+#login-div div div button:first-child {
+  background-color: #FF0000;
+  font-weight: 700;
+}
+#login-div div div button img {
+  height: 25px;
+  width: 25px;
+}
+#login-div div div button p {
+  flex-grow: 1;
 }/*# sourceMappingURL=style.css.map */
